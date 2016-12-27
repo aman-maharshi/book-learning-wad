@@ -1,0 +1,11 @@
+* {
+  padding: 0.3rem;
+  font-family: verdana;
+}
+.comment-input span:hover {
+  cursor: pointer;
+}
+.comments-box {
+  max-height: auto;
+  background: rgba(241, 196, 15,0.7);
+}
