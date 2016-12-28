@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+* {
+  padding: 0.2rem;
+  font-family: 'Noto Sans', sans-serif;
+  color: #2c3e50;
+  box-sizing: border-box;
+}
+main {
+  height:100vh;
+  min-width: 500px;
+  background: rgba(243, 156, 18,0.5);
+  /* to align everything under main to center*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  margin: 1em;
+}
+h2 a {
+  text-decoration: none;
+}
+.container {
+  //border: 1px solid black;
+  min-height: 10em;
+  min-width: 500px;
+  margin-left: 5em;
+}
+.tabs a span {
+  display:inline-block;
+  border-radius: 5px 5px 0 0;
+  width: 6em;
+  margin-right: 2em;
+  text-align: center;
+  background: rgba(52, 73, 94, 0.5);
+  padding: 0.5em;
+  color: white;
+}
+.tabs a span.active {
+  background: rgba(41, 128, 185, 1.0);
+}
+.content {
+  padding: 0.5em;
+}
+.content li {
+  padding: 0.2em;
+}
+/*
+  Add Button
+*/
+.comment-input input {
+  width: 20em;
+}
+.comment-input input:focus {
+    border: 2px solid rgba(41, 128, 185,1.0);
+}
+.comment-input button {
+  width:7em;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+footer {
+  text-align: center;
+}
