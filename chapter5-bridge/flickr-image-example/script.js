@@ -7,11 +7,9 @@ var main = function () {
 		temp.items.forEach(function(photo){
 			//console.log(photo.media.m);
 			//creating a new jquery element to hold the image
-			var $img = $("<img>").hide();
+			var $img = $("<img>");
 			$img.attr("src", photo.media.m);
 			$("main .photos").append($img);
-			$img.fadeIn();
-
 		})
 	})
 }
